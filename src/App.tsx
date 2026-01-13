@@ -3,7 +3,7 @@ import './App.css';
 
 // n8n webhook endpoint for collecting user requests.
 const WEBHOOK_URL =
-  'https://current-coat-hybrid-welding.trycloudflare.com/webhook-test/b18de4c2-6425-44ab-bb3d-ae3e809b4184';
+  'https://n8n.srv1268950.hstgr.cloud/webhook/b18de4c2-6425-44ab-bb3d-ae3e809b4184';
 
 type Status = 'idle' | 'loading' | 'success' | 'error';
 
